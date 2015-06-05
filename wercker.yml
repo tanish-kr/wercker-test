@@ -9,5 +9,5 @@ build:
       cat /etc/passwd
       pwd
       yum list
-      sudo cat /etc/sudoers
+      ls -la /etc
       sudo yum -y update
