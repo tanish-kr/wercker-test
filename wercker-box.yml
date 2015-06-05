@@ -6,7 +6,7 @@ platform: centos:6
 description: serverspec install box
 keywords:
   - install rbenv
-  script:
+    script: |
     sudo yum -y update
     sudo yum -y install
     git clone https://github.com/sstephenson/rbenv.git
