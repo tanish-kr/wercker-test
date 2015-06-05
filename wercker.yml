@@ -11,3 +11,4 @@ build:
       yum list
       ls -la /etc
       sudo yum -y update
+      yum search ruby
