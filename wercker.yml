@@ -1,4 +1,5 @@
-box: centos:6
+#box: centos:6
+box: centos-serverspec
 build:
   steps:
 

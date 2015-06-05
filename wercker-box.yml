@@ -1,0 +1,13 @@
+name: centos-serverspec
+version: 0.0.1
+inherits: centos:6
+type: main
+platform: centos:6
+description: serverspec install box
+keywords:
+  - install rbenv
+  script:
+    sudo yum -y update
+    sudo yum -y install
+    git clone https://github.com/sstephenson/rbenv.git
+    git clone https://github.com/sstephenson/ruby-build.git
