@@ -8,3 +8,4 @@ build:
       echo 'Hello World'
       cat /etc/passwd
       pwd
+      yum list
