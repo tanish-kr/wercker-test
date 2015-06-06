@@ -1,5 +1,5 @@
 #box: centos:6
-box: ippokm/AWS-Ansible@0.0.19
+box: ippokm/AWS-Ansible
 build:
   steps:
 
