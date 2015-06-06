@@ -1,5 +1,5 @@
 #box: centos:6
-services: vagrant-preinstall
+box: ippokm/AWS-Ansible@0.0.19
 build:
   steps:
 
