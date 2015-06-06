@@ -1,5 +1,5 @@
 #box: centos:6
-services: centos-serverspec
+services: vagrant-preinstall
 build:
   steps:
 
